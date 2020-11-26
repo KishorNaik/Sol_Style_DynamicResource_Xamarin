@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Sol_Demo.ViewModels"
+             x:Class="Sol_Demo.Views.MainPage">
+
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel></vm:MainPageViewModel>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Button Text="Change Style Resource" Command="{Binding ChangeResource}"></Button>
+        <Label Style="{DynamicResource defaultLable}">This is Page</Label>
+        <Label Text="{DynamicResource Name}"></Label>
+    </StackLayout>
+</ContentPage>

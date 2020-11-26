@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style x:Key="lableOrange" TargetType="Label">
+        <Setter Property="BackgroundColor" Value="Orange"></Setter>
+        <Setter Property="TextColor" Value="Black"></Setter>
+    </Style>
+
+    <Style x:Key="lableGreen" TargetType="Label">
+        <Setter Property="BackgroundColor" Value="Green"></Setter>
+        <Setter Property="TextColor" Value="White"></Setter>
+    </Style>
+
+    <x:String x:Key="Name">Kishor</x:String>
+</ResourceDictionary>
